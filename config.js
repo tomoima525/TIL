@@ -1,17 +1,16 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
-  primaryColor: '#3498db', // Required
-  showHeaderImage: true,
+  title: "T.I.L", // Required
+  author: "Tomoaki Imai", // Required
+  description: "Love to craft quality code",
+  primaryColor: "#FF3333", // Required
+  showHeaderImage: false,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    github: "https://github.com/tomoima525",
+    twitter: "https://twitter.com/tomoaki_imai",
+    linkedin: "https://www.linkedin.com/in/tomoaki-imai-52104170/"
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  pathPrefix: "/devblog",
+  siteUrl: "https://tbd.github.io/devblog/"
 };
