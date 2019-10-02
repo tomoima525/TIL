@@ -1,7 +1,7 @@
 ---
 title: "2019-10-01"
 date: "2019-10-01"
-# featuredImage: "./error.png"
+featuredImage: "./error.png"
 ---
 
 A blog for daily "Today I Learned" things.
