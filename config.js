@@ -12,5 +12,5 @@ module.exports = {
     linkedin: "https://www.linkedin.com/in/tomoaki-imai-52104170/"
   },
   pathPrefix: "/devblog",
-  siteUrl: "https://tbd.github.io/devblog/"
+  siteUrl: "https://laughing-pare-f0dfb4.netlify.com/devBlog"
 };
