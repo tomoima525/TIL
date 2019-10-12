@@ -5,7 +5,7 @@ date: "2019-10-10"
 
 ☀️
 
-## `react-native-fetch-blob` is outdated
+## react-native-fetch-blob is outdated
 
 - Switch to rn-fetch-blob from react-native-blob. Original `react-native-fetch-blob` is outdated
 - https://www.npmjs.com/package/rn-fetch-blob
