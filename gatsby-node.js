@@ -1,15 +1,15 @@
-const _ = require('lodash');
-const Promise = require('bluebird');
-const path = require('path');
-const { createFilePath } = require('gatsby-source-filesystem');
-const createPaginatedPages = require('gatsby-paginate');
-const userConfig = require('./config');
+const _ = require("lodash");
+const Promise = require("bluebird");
+const path = require("path");
+const { createFilePath } = require("gatsby-source-filesystem");
+const createPaginatedPages = require("gatsby-paginate");
+const userConfig = require("./config");
 
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions;
 
   return new Promise((resolve, reject) => {
-    const blogPost = path.resolve('./src/templates/blog-post.js');
+    const blogPost = path.resolve("./src/templates/blog-post.js");
     resolve(
       graphql(
         `
@@ -24,6 +24,9 @@ exports.createPages = ({ graphql, actions }) => {
                     slug
                   }
                   excerpt
+                  headings(depth: h1) {
+                    value
+                  }
                   frontmatter {
                     title
                     date(formatString: "MMMM D, YYYY")
@@ -43,13 +46,12 @@ exports.createPages = ({ graphql, actions }) => {
               }
             }
           }
-        `,
+        `
       ).then(result => {
         if (result.errors) {
           console.log(result.errors);
           reject(result.errors);
         }
-
         // Create blog posts pages.
         const posts = result.data.allMarkdownRemark.edges;
 
@@ -61,8 +63,8 @@ exports.createPages = ({ graphql, actions }) => {
           createPaginatedPages({
             edges: result.data.allMarkdownRemark.edges,
             createPage: createPage,
-            pageTemplate: 'src/templates/index.js',
-            pageLength: userConfig.postsPerPage,
+            pageTemplate: "src/templates/index.js",
+            pageLength: userConfig.postsPerPage
           });
 
           createPage({
@@ -71,11 +73,11 @@ exports.createPages = ({ graphql, actions }) => {
             context: {
               slug: post.node.fields.slug,
               previous,
-              next,
-            },
+              next
+            }
           });
         });
-      }),
+      })
     );
   });
 };
@@ -88,7 +90,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value
     });
   }
 };

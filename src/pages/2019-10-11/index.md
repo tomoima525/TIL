@@ -50,7 +50,7 @@ https://github.com/react-native-community/discussions-and-proposals/issues/129#i
   - https://stackoverflow.com/questions/41052868/what-are-kotlin-builtins-files-and-can-i-omit-them-from-my-uberjars
   - `And if you don't use reflection on built-in classes, I think it's safe to exclude .kotlin_builtins files completely from the resulting jar.`
 
-# Workout
+# Workouts
 
 - 6min abs
 - 60 push ups
