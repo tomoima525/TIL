@@ -5,7 +5,7 @@ date: "2019-10-04"
 
 ☀️
 
-## Analytics on Segment and Mixpanel
+# Analytics on Segment and Mixpanel
 
 - https://segment.com/docs/destinations/mixpanel/
 
@@ -22,6 +22,6 @@ date: "2019-10-04"
   - https://github.com/segmentio/analytics-ios/blob/f07232eb36d7a6827533af89d17378518ded7d21/Analytics/Classes/Internal/SEGSegmentIntegration.m#L648
   - need to report the bug to Segment
 
-## Training
+# Workouts
 
 - 40 min 8 km run

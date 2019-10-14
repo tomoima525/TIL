@@ -5,7 +5,7 @@ date: "2019-10-03"
 
 ☀️
 
-## Running iOS app on a real device
+# Running iOS app on a real device
 
 - You don't have to pay for running on a device
 - https://developer.apple.com/library/archive/documentation/ToolsLanguages/Conceptual/Xcode_Overview/RunningonaDevice.html
@@ -17,12 +17,12 @@ date: "2019-10-03"
 
 ![screen](./screen.png)
 
-## Debounce on Change
+# Debounce on Change
 
 - You'd want to debounce some extra work that is triggered by changes so that input does not get blocked
 - https://github.com/facebook/react/issues/1360#issuecomment-333969294
 
-## Training
+# Workouts
 
 - 6 min abs training
 - 50 abs roller

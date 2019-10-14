@@ -5,7 +5,7 @@ date: "2019-10-08"
 
 ☀️
 
-## Global IP(External IP)
+# Global IP(External IP)
 
 - An external IP address is what most internet users are familiar with. This is the address assigned by your Internet Service Provider (ISP), which is made public. In other words, this is the address of your router interface that is connected to the internet.
   - https://troypoint.com › internal-external-ip-address
@@ -23,6 +23,6 @@ date: "2019-10-08"
 
 - https://stackoverflow.com/questions/30748480/swift-get-devices-wifi-ip-address/30748582#30748582
 
-## Training
+# Workouts
 
 - NA

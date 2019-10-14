@@ -8,10 +8,10 @@ A blog for daily "Today I Learned" things.
 
 <!-- end -->
 
-### Blog on Netlify
+# Blog on Netlify
 
-Having trouble with uploading my first blog with the error below.
+- Having trouble with uploading my first blog with the error below.
 
 ![error](./error.png)
 
-Looks like `featuredImage` is causing an issue. Not sure.
+- Looks like `featuredImage` is causing an issue. Not sure.
